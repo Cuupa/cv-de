@@ -1,0 +1,273 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Simon Thiel
+    tagline: Software Developer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: simonthiel2@gmail.com
+    timezone: Europe/Berlin
+    citizenship:
+    #website: blog.webjeda.com #do not add http://
+    linkedin: simon-thiel-aa71971bb
+    xing: Simon_Thiel5
+    github: Cuupa
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: 
+
+    languages:
+      title: Sprachen
+      info:
+        - idiom: Deutsch
+          level: Muttersprache
+
+        - idiom: Englisch
+          level: Fließend
+
+    interests:
+      title: Interessen
+      info:
+        - item: Technologie
+          link:
+
+        - item: Tanzen
+          link:
+
+        - item: Kochen
+          link:
+
+career-profile:
+    title: Profil
+    summary: |
+      Mein Name ist Simon und ich bin ein passionierter Entwickler. Ich liebe es neue Dinge zu lernen und auszuprobieren.
+      2010 habe ich meine Ausbildung bei der Provinzial Rheinland Versicherung AG Düsseldorf in Kooperation mit der codecentric AG in Solingen begonnen.
+      Neben dem intensiven Training in Java und Cobol, wurde ein starker Fokus auf Datenstrukturen, Algorithmik und Softwarearchitektur gelegt.
+      Statt der traditionellen 3 Jahren wurde die Ausbildung auf 2.5 Jahre verkürzt.
+
+      Neben meinem Job liebe ich es, mit meinem Homelab zu arbeiten, kleinere, private Projekte umzusetzen und auf hackthebox.com capute-the-flag Aufgaben zu lösen.
+education:
+    title: Bildung
+    info:
+      - degree: Ausbildung zum Fachinformatiker Anwendungsentwicklung
+        company: Provinzial Rheinland Versicherung AG
+        time: 2010 - 2013
+        details: |
+          Ausbildung bei der Provinzial Rheinland Versicherung AG in Kooperation mit der codecentric AG in Solingen.
+          Neben dem intensiven Training in Java und Cobol, wurde ein starker Fokus auf Datenstrukturen, Algorithmik und Softwarearchitektur gelegt.
+          Statt der traditionellen 3 Jahren wurde die Ausbildung auf 2.5 Jahre verkürzt.
+      
+      - degree: Fachabitur
+        company: Höhere Technikschule - Berufskolleg Uerdingen
+        time: 2008 - 2010
+        details: |
+          Auf dem Berufskolleg Uerdingen habe ich mein Fachabitur in dem Bereich Informatik und Elektrotechnik erlangt.
+
+experiences:
+    title: Erfahrung
+    info:
+      - role: Java Software Entwickler
+        time: 2010 - Heute
+        company: Provinzial Versicherung AG
+        details: |
+          Wartung und Weiterentwicklung der digitalen Akte und des Postkorb-Systems
+      - role: Java Software Entwickler
+        time: 2023 - Heute
+        company: Provinzial Versicherung AG
+        details: |
+          Im Rahmen der Fusion wurde die alte Anwendungslandschaft in eine neue, konzernweite Anwendungslandschaft überführt, während Legacy-Systeme weiterhin betreut und gewartet wurden
+            - Umsetzung der neuen Sicherheitsarchitektur
+            - Erstellen und einführen von APIs und Funktionialität um Daten zwischen der neuen und der alten Anwendungslandschaft auszutauschen
+      - role: Java Software Entwickler
+        time: 2020 - 2023
+        company: Provinzial Rheinland Versicherung AG
+        details: |
+          Wartung und Weiterentwicklung der digitalen Akte und des Postkorb, sowie Wartung der mit camunda BPMN automatisieren Prozesse.
+      - role: Java Software Entwickler
+        time: 2019 - 2020
+        company: Provinzial Rheinland Versicherung AG
+        details: |
+          Umsetzung von fallabschließender, automatisierter Verarbeitung der Kunden-Kündigungsschreiben in der Sparte der Lebensversicherung.
+            - Implementierung der funktionalen Anforderungen mit camunda BPMN
+            - Weiterentwicklung und Erweiterung der bestehenden Infrastruktur
+            - Organisatorische Aufgaben
+            - Hauptverantwortlicher für systemweite Schnittstellen zwischen der Archivierung, Akte, Postkorb und des semantischen Systems
+      - role: Java Software Entwickler
+        time: 2018
+        company: Provinzial Rheinland Versicherung AG
+        details: |
+          Umsetzung von fallabschließender, automatisierter Verarbeitung der Änderungsanzeigen der Gewerbe- und Industriekunden.
+            - Implementierung der funktionalen Anforderungen mit camunda BPMN
+            - Weiterentwicklung und Erweiterung der bestehenden Infrastruktur
+      - role: Java Software Entwickler
+        time: 2017 - 2018
+        company: Provinzial Rheinland Versicherung AG
+        details: |
+          Umsetzung von fallabschließender, automatisierter Verarbeitung der Kunden-Kündigungsschreiben in der KFZ-Sparte für ein Tochterunternehmen. Das Ziel dieses Projektes, war eine Entlastung der Fachbereiche während des Jahresendgeschäfts.
+            - Integration des vorher ausgewählten semantischen Systems in die bestehende Anwendungslandschaft 
+            - Implementierung der funktionalen Anforderungen mit camunda BPMN
+      - role: Java Software Entwickler
+        time: 2016
+        company: Provinzial Rheinland Versicherung AG
+        details: |
+          Pilotierung eines semantischen Texterkennungssystems.
+            - Vergleich von zwei Anbietern unter gleichen Bedingungen
+            - Vergleich in Bezug auf Korrektheit, Anpassbarkeit und der Möglichkeit zur Integration in die Anwendungslandschaft
+      - role: Java Software Entwickler
+        time: 2015 - 2016
+        company: Provinzial Rheinland Versicherung AG
+        details: |
+          Austausch des alten Workflowsystems durch camunda BPMN im laufenden Betrieb
+            - Migration der laufenden Prozesse
+            - Erstellung neuer Prozessmodelle
+            - Refactoring und Redesign der nutzenden Anwendung mit starkem Fokus auf Anpassbarkeit, Robustheit und Erweiterbarkeit
+      
+
+certifications:
+      title: Zertifikate
+      list:
+        - name: Angular Basics
+          start: 15.08.2023
+          end: 17.08.2023
+          organization: Provinzial Versicherung AG
+          credentialurl: www.angulararchitects.io
+          credentialname: Angular Architects
+          details: |
+            Introduction to Angular
+        - name: Apache Kafka
+          start: 10.11.2022
+          end: 11.11.2022
+        - name: Java after 8
+        - name: Java Master Class
+          credentialurl: www.javaspecialists.eu/
+        - name: Spring core
+        - name: Camunda BPMN for developers
+          start: 2017
+          end: 2017
+          organization: Provinzial Versicherung AG
+          credentialurl: camunda.com/
+          credentialname: Camunda
+          details: |
+            Camunda BPMN for developers
+
+projects:
+    title: Projekte
+    intro: >
+      Ich bin ein leidenschaftlicher Entwickler. Während ich es liebe, Software zu entwickeln, liegen meine Interessen ebenso in anderen Bereichen als nur die Programmierung und Entwicklung; Ich liebe es, ebenso über den Tellerrand zu schauen, wie zum Beispiel in den Bereich Server und Infrastruktur.
+    assignments:
+      - title: Classificator
+        link: "https://github.com/Cuupa/classificator"
+        tagline: "Ein Textklassifikationssystem ganz ohne KI"
+
+      - title: astrosort
+        link: "https://github.com/Cuupa/astrosort"
+        tagline: "Ein simples Python-Skript, welches Bilder aus der Astrofotografie vorsortiert. Dies ist ein Wunsch eines Freundes"
+
+      - title: price-scaper
+        link: "https://github.com/Cuupa/price-scraper"
+        tagline: "Ein Projekt um meine Kentnisse in Flask und Python zu vertiefen"
+
+      - title: Mein homelab
+        link: "#"
+        tagline: "Ich betreibe mehrere Services, meistens mit docker-compose betrieben. Diese Services beinhalten unter anderem Monitoring, Reverse-Proxy, DNS Server, git, etc. Ich provisioniere diese Services mit Ansible. Ebenfalls habe ich unseren Solar-Wechselrichter in Grafana eingebunden."
+
+
+#oss:
+#    title: OSS Contributions
+#    intro: >
+#      You can list your open source software contributions in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    contributions:
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#    papers:
+#      - title: The Art of Computer Programming
+#        link: "#"
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+ #       authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+ #       conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#      - title: A syntax directed compiler for Algol 60
+#        link: "#"
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Java
+        level: 98%
+
+      - name: Kotlin
+        level: 90%
+
+      - name: Spring
+        level: 90%
+
+      - name: Linux
+        level: 90%
+
+      - name: Camunda BPMN
+        level: 80%
+
+      - name: Python
+        level: 80%
+
+      - name: HTML5 & CSS
+        level: 80%
+
+      - name: Git
+        level: 80%
+      
+      - name: Docker
+        level: 80%
+
+      - name: C#
+        level: 80%
+
+      - name: SQL
+        level: 60%
+
+      - name: Ansible
+        level: 50%
+
+      - name: Cobol
+        level: 30%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
