@@ -79,6 +79,12 @@ education:
 experiences:
     title: Erfahrung
     info:
+      - role: Python Entwickler
+        time: 01.03.2024 - 01.06.2024
+        company: Universitätsmedizin der Johannes Gutenberg-Universität Mainz
+        details: |
+          - Planung und Durchführung einer Python-Grundlagenschulung 
+          - Fehlerkorrektur und Weiterentwicklung einer Python-Flask-Anwendung zum Auswerten und Kuratieren von MALDI-Messdaten
       - role: Java Software Entwickler
         time: 2010 - Heute
         company: Provinzial Versicherung AG
